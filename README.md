@@ -39,6 +39,8 @@ Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự 
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/acc_loss_gender.png)
   + Các epochs cuối của mô hình dự đoán giới tính:
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/predict_gender.png)
+- Kiểm thử mô hình:
+  ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test.jpg)
 
 III. Tài liệu tham khảo
 - <1>: https://viblo.asia/p/normalization-and-normalization-techniques-in-deep-learning-QpmleJyn5rd
