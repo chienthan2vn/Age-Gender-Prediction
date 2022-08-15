@@ -33,10 +33,10 @@ Quá trình train bao gồm 3 giai đoạn:
 Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự đoán tuổi và giới tính:
 - Mô hình dự đoán tuổi:
   + Accuracy và loss của mô hình dự đoán tuổi:
-  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/age_acc_loss.png)
+  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/age_loss_acc.png)
 - Mô hình dự đoán giới tính:
   + Accuracy và loss của mô hình dự đoán giới tính:
-  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/gender_acc_loss.png)
+  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/loss_accuracy/gender_loss_acc.png)
 - Kiểm thử mô hình:
   ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test.jpg)
 
