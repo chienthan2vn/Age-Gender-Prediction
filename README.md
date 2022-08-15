@@ -2,7 +2,7 @@
 Predict age and gender of people using CNN and UTKFace datasets
 
 
-![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test.jpg)
+![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/UTKFaceDemo.png)
 
 
 
