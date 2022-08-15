@@ -8,7 +8,7 @@ model_gender = load_model('D:/learn/ai/mlbasic/nhandien/dudoantuoigt/colab/model
 
 #label
 label_gender = ['male', 'female']
-label_age = ["8-12", "13-18", "19-25", "26-32", "33-44", "45-55", "56-70", "71-80"]
+label_age = ["1-4", "5-8", "9-12", "13-16", "19-22", "23-26", "27-30", "31-34", "35-38", "39-42", "43-46", "47-50", "51-56", "57-62", "63-70", "71-80", "81-90", "91-116"]
 
 def detect_image():
     link = str(input("Link Image: "))

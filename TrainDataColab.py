@@ -13,7 +13,7 @@ def split_data(pixels, labels):
     return x_train, x_test, y_train, y_test
 
 #VGG_face
-def VGG_face(x_train, x_test, y_train, y_test, number, save_model):
+def VGG_face(x_train, x_test, y_train, y_test, number, save_model, batch_size, epochs):
     #Lib
     import pandas as pd
     from keras.layers import Dropout, Flatten, Dense, BatchNormalization, Conv2D, MaxPooling2D, Dropout
@@ -55,7 +55,7 @@ def VGG_face(x_train, x_test, y_train, y_test, number, save_model):
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
     # construct the training image generator for data augmentation
-    aug = ImageDataGenerator(rotation_range=20, zoom_range=0.1, width_shift_range=0.1, height_shift_range=0.1, horizontal_flip=True, brightness_range=[0.2,1.5], fill_mode="nearest")
-    loss = model.fit_generator(aug.flow(x_train, y_train, batch_size = 40), epochs = 50, validation_data = aug.flow(x_test, y_test, batch_size = 40))
+    aug = ImageDataGenerator(rotation_range=20, zoom_range=0.1, rescale=1./255, width_shift_range=0.1, height_shift_range=0.1, horizontal_flip=True, brightness_range=[0.2,1.5], fill_mode="nearest")
+    loss = model.fit_generator(aug.flow(x_train, y_train, batch_size = batch_size), epochs = epochs, validation_data = aug.flow(x_test, y_test, batch_size = batch_size))
     pd.DataFrame(loss.history).plot()
     model.save(save_model)
