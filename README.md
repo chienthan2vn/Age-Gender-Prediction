@@ -46,5 +46,3 @@ III. Tài liệu tham khảo
 - <3>: https://www.kaggle.com/datasets/jangedoo/utkface-new
 - <4>: https://viblo.asia/p/tang-cuong-du-lieu-trong-deep-learning-oOVlYe4nl8W
 - <5>: https://www.researchgate.net/figure/Comparative-analysis-of-FaceNet-VGGFace-VGG16-and-VGG19-for-face-recognition-on_fig1_353828254
-  
-

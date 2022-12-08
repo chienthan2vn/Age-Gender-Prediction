@@ -1,7 +1,0 @@
-pickle
-cv2
-numpy
-keras
-scikit-learn
-pandas
-tensorflow
