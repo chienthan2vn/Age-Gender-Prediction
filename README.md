@@ -22,7 +22,7 @@ Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự 
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Loss_gender.png)
  - Model predict ethnicity:
   + Accuracy predict ethnicity:
-  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Accuracy_ethinicity.png)
+  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Accuracy_ethnicity.png)
   + Loss predict ethnicity:
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Loss_ethnicity.png)
 - Test model:
