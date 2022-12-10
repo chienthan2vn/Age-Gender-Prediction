@@ -23,7 +23,7 @@ Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự 
  - Model predict ethnicity:
   + Accuracy predict ethnicity:
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Accuracy_ethinicity.png)
-  +Loss predict ethnicity:
+  + Loss predict ethnicity:
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/Loss_ethnicity.png)
 - Test model:
 Image: General Secretary Nguyen Phu Trong visit becomes Chinese
