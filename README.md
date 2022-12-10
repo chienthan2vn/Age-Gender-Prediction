@@ -9,6 +9,7 @@ Predict age and gender of people using CNN and UTKFace datasets
 _________________________________________________________________________________________________________________
 1. NaN
 2. NaN
+
 3.Kiểm thử mô hình
 Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự đoán tuổi và giới tính:
 - Model Predict age:
@@ -29,11 +30,11 @@ Image: General Secretary Nguyen Phu Trong visit becomes Chinese
   + Before
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test.jpg)
   + After
-  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test.jpg.png)
+  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test.jpg)
    + Before
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test1.jpg)
   + After
-  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test1.jpg.png)
+  + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test1.jpg)
   
 
 III. References
