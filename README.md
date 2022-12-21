@@ -1,5 +1,5 @@
 # Age-Gender-Prediction
-## Predict age and gender of people using mobile net v2 and UTKFace datasets with 91% accuracy age, 80% accuracy ethnicity, 47,45 MSE age.
+Predict age and gender of people using mobile net v2 and UTKFace datasets with 91% accuracy age, 80% accuracy ethnicity, 47,45 MSE age.
 
 ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/UTKFaceDemo.png)
 ___
@@ -13,7 +13,7 @@ ___
   - Tập dữ liệu sau khi chuyển về file csv: [link](https://www.kaggle.com/datasets/lngcthun/utkface-convert-csv)
   #### Phân tích bài toán
   - Mô hình bài toán được thể hiện như sau:
-  ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/project.png)
+  <space>![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/project.png)<space>
   - Mô hình được áp dụng là mobile net v2 do tính nhỏ gọn nhưng vẫn đem lại hiệu quả tốt, thích hợp triển khai trên biên, ngoài ra lớp FC sẽ sử dụng thêm regularizers l2.
 ## 3.Kiểm thử mô hình
 Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự đoán tuổi và giới tính:
