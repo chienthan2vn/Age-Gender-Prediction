@@ -10,19 +10,16 @@ ___
   - Trong bài sử dụng tập dữ liệu UTKFace bao gồm hơn 20000 hình ảnh khuôn mặt bao gồm các chú thích về tuổi (0 - 116), giới tính (nam- nữ) và khu vực khai sinh. Các hình ảnh bao gồm sự thay đổi lớn trong tư thế, biểu hiện khuôn mặt, độ phân giải, ...
   - Liên kết tải tập dữ liệu gốc: [link](https://www.kaggle.com/datasets/jangedoo/utkface-new)
 ## 2. Phân tích và kĩ thuật bài toán
-  #### Tiền xử lí dữ liệu
   - Dữ liệu sau khi tải về sẽ được đưa về dạng file csv với các tính năng chính là: age (tuổi), gender (giới tính), ethnicity (dân tộc), image (hình ảnh). Hình ảnh khuôn mặt sẽ được đưa về kích thước 50x50 phù hợp với cấu hình máy.
   - Tập dữ liệu sau khi chuyển về file csv: [link](https://www.kaggle.com/datasets/lngcthun/utkface-convert-csv)
   #### Phân tích bài toán
   - Mô hình bài toán được thể hiện như sau:
-  ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/tree/main/image/project.png)
-  
-3. NaN
-
-3.Kiểm thử mô hình
+  ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/project.png)
+  - Mô hình được áp dụng là mobile net v2 do tính nhỏ gọn nhưng vẫn đem lại hiệu quả tốt, thích hợp triển khai trên biên, ngoài ra lớp FC sẽ sử dụng thêm regularizers l2.
+## 3.Kiểm thử mô hình
 Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự đoán tuổi và giới tính:
 - Model Predict age:
-  + Accuracy predict age:
+  + MSE predict age:
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/MSE_loss_age.png)
 - Model predict gender:
   + Accuracy predict gender:
@@ -40,11 +37,7 @@ Image: General Secretary Nguyen Phu Trong visit becomes Chinese
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test.jpg)
   + After
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test.jpg)
-   + Before
+  + Before
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/test1.jpg)
   + After
   + ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/image/test/test1.jpg)
-  
-
-III. References
-NaN
