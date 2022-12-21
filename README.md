@@ -1,14 +1,23 @@
 # Age-Gender-Prediction
-Predict age and gender of people using CNN and UTKFace datasets
+Predict age and gender of people using mobile net v2 and UTKFace datasets
 
 
 ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/UTKFaceDemo.png)
-
-
-
-_________________________________________________________________________________________________________________
-1. NaN
-2. NaN
+___
+## 1. Mục đích và dataset
+  - Giới tính và độ tuổi của người dùng rất quan trọng đối với các tổ chức để hiểu khách hàng và phát triển các chiến lược của họ để cung cấp các dịch vụ tốt hơn cho khách hàng.
+  - Trong project trên sẽ đề cập tới vấn đề sử dụng mô hình mobile net v2 để dự đoán tuổi, giới tính và khu vực của khách hàng khi đi vào vùng camera.
+  - Trong bài sử dụng tập dữ liệu UTKFace bao gồm hơn 20000 hình ảnh khuôn mặt bao gồm các chú thích về tuổi (0 - 116), giới tính (nam- nữ) và khu vực khai sinh. Các hình ảnh bao gồm sự thay đổi lớn trong tư thế, biểu hiện khuôn mặt, độ phân giải, ...
+  - Liên kết tải tập dữ liệu gốc: [link](https://www.kaggle.com/datasets/jangedoo/utkface-new)
+## 2. Phân tích và kĩ thuật bài toán
+  #### Tiền xử lí dữ liệu
+  - Dữ liệu sau khi tải về sẽ được đưa về dạng file csv với các tính năng chính là: age (tuổi), gender (giới tính), ethnicity (dân tộc), image (hình ảnh). Hình ảnh khuôn mặt sẽ được đưa về kích thước 50x50 phù hợp với cấu hình máy.
+  - Tập dữ liệu sau khi chuyển về file csv: [link](https://www.kaggle.com/datasets/lngcthun/utkface-convert-csv)
+  #### Phân tích bài toán
+  - Mô hình bài toán được thể hiện như sau:
+  ![image](https://github.com/chienthan2vn/Age-Gender-Prediction/tree/main/image/project.png)
+  
+3. NaN
 
 3.Kiểm thử mô hình
 Sau khi rèn luyện mô hình ta thu được kết quả của mô hình dự đoán tuổi và giới tính:
